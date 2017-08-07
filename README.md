@@ -5,7 +5,7 @@
 Сообщество бота: https://vk.com/botexample. Бот отправляет в ответ на любое сообщение картинку и голосовое сообщение с именем собеседника.
 
 ## Подготовка к использованию
-Укажите свои данные в [html/config.php](https://github.com/VKCOM/bot-example/blob/master/html/config.php).
+Укажите свои данные в [config.php](https://github.com/VKCOM/bot-example/blob/master/html/config.php).
 Ключ доступа к API и код подтверждения для Callback API Вы можете получить в настройках сообщества. Подробнее о получении ключа доступа для Яндекс SpeechKit можно прочитать [здесь](https://tech.yandex.ru/speechkit/).
 
 ## Описание файлов
@@ -23,4 +23,4 @@
 Функции для работы с методами API ВКонтакте
 
 ### [api/yandex_api.php](https://github.com/VKCOM/bot-example/blob/master/html/api/yandex_api.php)
-Генерация голосового сообщения с помощью API Яндекс SpeechKit.
+Функции для работы с API Яндекс SpeechKit для генерация голосовых сообщений.
