@@ -1,7 +1,7 @@
 <?php
 
-define('СALLBACK_API_EVENT_CONFIRMATION', 'confirmation');
-define('СALLBACK_API_EVENT_MESSAGE_NEW', 'message_new');
+define('CALLBACK_API_EVENT_CONFIRMATION', 'confirmation');
+define('CALLBACK_API_EVENT_MESSAGE_NEW', 'message_new');
 
 require_once 'config.php';
 require_once 'global.php';
@@ -23,12 +23,12 @@ function callback_handleEvent() {
   try {
     switch ($event['type']) {
       //Подтверждение сервера
-      case СALLBACK_API_EVENT_CONFIRMATION:
+      case CALLBACK_API_EVENT_CONFIRMATION:
         _callback_handleConfirmation();
         break;
 
       //Получение нового сообщения
-      case СALLBACK_API_EVENT_MESSAGE_NEW:
+      case CALLBACK_API_EVENT_MESSAGE_NEW:
         _callback_handleMessageNew($event['object']);
         break;
 
