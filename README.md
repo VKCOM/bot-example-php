@@ -9,7 +9,7 @@
 Ключ доступа к API и код подтверждения для Callback API Вы можете получить в настройках сообщества. Подробнее о получении ключа доступа для Яндекс SpeechKit можно прочитать [здесь](https://tech.yandex.ru/speechkit/).
 
 ## Описание файлов
-### [index.php](https://github.com/VKCOM/bot-example-php/blob/master/html/index.php)
+### [index.php](https://github.com/VKCOM/bot-example-php/blob/master/www/index.php)
 Обработка событий Callback API. В нашем примере обрабатываются два события:
 - *confirmation* — уведомление для подтверждения адреса сервера;
 - *new_message* — уведомление о входящем сообщении. 
