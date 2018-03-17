@@ -23,3 +23,4 @@ function _log_write($message) {
   $log_name = BOT_LOGS_DIRECTORY.'/log_' . date("j.n.Y") . '.txt';
   file_put_contents($log_name, $mark . " : " . $message . "\n", FILE_APPEND);
 }
+?>
